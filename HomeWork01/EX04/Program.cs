@@ -14,12 +14,13 @@ Console.Write("Введите третье число: ");
 int num3 = int.Parse(Console.ReadLine());
 
 int max = num1;
+int i = 0;
 
-if (num2 > num1)
+if ((num2 > num1) & (num2 > num3)) 
 {
     max = num2;
 }
-if (num3 > num1)
+if ((num3 > num1) & (num3 > num2))
 {
     max = num3;
 }
